@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear"
+    android:clickable="true"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/btn_shape2"
+    android:padding="16dp">
+
+    <TextView
+
+        android:id="@+id/textlistUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:textColor="@color/red"
+        android:layout_marginStart="16dp"
+        android:text="@string/user_name"
+        android:textSize="15sp"
+         />
+
+
+
+    <TextView
+
+        android:id="@+id/textlistPassword"
+        android:layout_width="wrap_content"
+        android:textColor="@color/red"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/gender"
+        android:textSize="15sp"
+        />
+
+
+
+</LinearLayout>

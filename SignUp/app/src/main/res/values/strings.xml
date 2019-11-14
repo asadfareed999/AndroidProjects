@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">LayoutDesign</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="first_name">Full Name*</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="by_accepting_you_are_agreeing_to_the">By accepting,you are agreeing to the</string>
+
+    <string name="pswrd">***********</string>
+    <string name="re_type_password">Re-Type Password*</string>
+    <string name="pswrd2">***********</string>
+    <string name="password">Password*</string>
+    <string name="your_email_here">Your email here</string>
+    <string name="email">Email*</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name2">    First Name</string>
+    <string name="you_are_just_getting_in">You are just getting in</string>
+    <string name="already_have_a_account">Already have an account?</string>
+    <string name="first_name3">First Name</string>
+    <string name="login">Login</string>
+</resources>

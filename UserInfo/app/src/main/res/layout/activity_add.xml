@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Add"
+    android:padding="16dp"
+    android:background="@color/light_blue">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageView2"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_image_black_24dp"/>
+
+    <Button
+        android:id="@+id/capture_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:onClick="capture"
+        android:background="@drawable/shape2"
+        android:layout_below="@id/imageView2"
+        android:text="@string/capture_image"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edit_name"
+        android:hint="@string/enter_your_name"
+        android:layout_below="@id/capture_btn"
+        android:layout_marginTop="20dp"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape2"
+        android:layout_below="@+id/edit_name"
+        android:text="@string/submit"
+        android:onClick="Submit"
+        />
+
+
+</RelativeLayout>

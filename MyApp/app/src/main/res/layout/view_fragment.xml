@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="620dp"
+    android:background="@color/grey"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/profile_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_info"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold"/>
+
+
+    <LinearLayout
+        android:layout_marginStart="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+
+            android:id="@+id/textUserName3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/uname"
+            android:textSize="20sp"
+            />
+        <TextView
+        android:id="@+id/textUserName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+
+        android:layout_marginStart="16dp"
+        android:text="@string/uname"
+        android:textSize="20sp"
+        />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginStart="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/textPassword3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/password"
+            android:textSize="20sp"
+            />
+
+        <TextView
+
+            android:id="@+id/textPassword3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="26dp"
+            android:text="@string/password"
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginStart="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:id="@+id/textGender3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/gender"
+            android:textSize="20sp"
+            />
+
+        <TextView
+
+            android:id="@+id/textGender3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="50dp"
+            android:text="@string/gender"
+
+            android:textSize="20sp"
+            />
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+

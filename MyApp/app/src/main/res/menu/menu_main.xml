@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <item  android:id="@+id/item1"
+        android:title="Sign Up"/>
+
+    <item  android:id="@+id/itemlogin"
+        android:title="Login"/>
+    <item  android:id="@+id/itemLists"
+        android:title="Users"/>
+    <item  android:id="@+id/iteminfo"
+        android:title="Profile"/>
+    <item  android:id="@+id/itemdelete"
+        android:title="Delete All"/>
+    <item  android:id="@+id/itemexit"
+        android:title="Exit"/>
+
+</menu>

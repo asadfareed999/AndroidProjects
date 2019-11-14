@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">UserInfo</string>
+    <string name="action_settings">Settings</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="enter_your_name">Enter Your name</string>
+    <string name="submit">Submit</string>
+</resources>

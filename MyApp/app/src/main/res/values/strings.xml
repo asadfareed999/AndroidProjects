@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="uname">User Name</string>
+    <string name="logo">logo</string>
+    <string name="no_account_yet_create_one">No account yet? Create one</string>
+    <string name="user_name">User Name</string>
+    <string name="your_password_here">Your password here</string>
+    <string name="your_name_here">Your name here</string>
+    <string name="log_in">Log In</string>
+    <string name="your_name">Your Name</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="gender">Gender</string>
+    <string name="listing">Listing</string>
+    <string name="password">Password</string>
+
+    <string name="profile_info">Profile Info</string>
+
+</resources>
